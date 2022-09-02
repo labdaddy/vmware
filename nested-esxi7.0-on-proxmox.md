@@ -2,8 +2,8 @@
 
 #### ENABLE NESTED VIRTUALIZATION (for ESXI) ON THE PROXMOX HOST MACHINE
 PROXMOX HOST CONSOLE
-- echo 'options kvm ignore_msrs=y' >> /etc/modprobe.d/kvm-intel.conf       # Intel-only
-- echo 'options kvm-intel nested=Y ept=Y' >> /etc/modprobe.d/kvm-intel.conf # Intel-only
+- `echo 'options kvm ignore_msrs=y' >> /etc/modprobe.d/kvm-intel.conf `      # Intel-only
+- `echo 'options kvm-intel nested=Y ept=Y' >> /etc/modprobe.d/kvm-intel.conf` # Intel-only
 - `reboot`
 
 #### CREATE THE VM

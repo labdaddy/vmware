@@ -10,7 +10,7 @@ PROXMOX HOST CONSOLE
 Follow the normal VM creation process except as noted below:
 
 - OS tab\
-OS type Other
+OS typ:e Other
 
 - System Tab\
 Graphic card: Default\
@@ -23,17 +23,17 @@ Bus/Device: SATA
 SSD emulation: Check
 Discard: Check
 
-CPU Tab
-Cores: as needed
-Type: host 
-Enable NUMA: Check if our system supports
+- CPU Tab\
+Cores: as needed\
+Type: host\
+Enable NUMA: Check if our system supports\
 
-Memory Tab
-Memory (MiB): 4096 (At least 4096, but to test all features 8192 – 16384 MiB will be better, that is 8G – 16G)
-Ballooning Device: Uncheck
+Memory Tab\
+Memory (MiB): 4096 (At least 4096, but to test all features 8192 – 16384 MiB will be better, that is 8G – 16G)\
+Ballooning Device: Uncheck\
 
-Network Tab
-Model: VMware vmxnet3
+Network Tab\
+Model: VMware vmxnet3\
 
 Finish VM creation but DO NOT start the VM yet
 

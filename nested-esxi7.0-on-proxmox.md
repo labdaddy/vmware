@@ -38,7 +38,8 @@ Model: VMware vmxnet3\
 Finish VM creation but DO NOT start the VM yet
 
 #### Go back to the proxmox console
-## PROXMOX HOST CONSOLE
+
+#### PROXMOX HOST CONSOLE
 - `echo 'args: -machine vmport=off' >> /etc/pve/qemu-server/VM_ID.conf` #replace VM_ID with the ID number you assigned to the VM
 - `qm start VM_ID` #replace VM_ID with the ID number you assigned to the VM
 

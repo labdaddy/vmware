@@ -16,7 +16,7 @@ OS typ:e Other
 Graphic card: Default\
 SCSI Controller: VMware PVSCSI\
 BIOS: SeaBIOS (OVMF (UEFI) should work too)\
-Machine: q35\
+Machine: q35
 
 - Hard Disk Tab\
 Bus/Device: SATA
@@ -26,14 +26,14 @@ Discard: Check
 - CPU Tab\
 Cores: as needed\
 Type: host\
-Enable NUMA: Check if our system supports\
+Enable NUMA: Check if our system supports
 
 - Memory Tab\
 Memory (MiB): 4096 (At least 4096, but to test all features 8192 – 16384 MiB will be better, that is 8G – 16G)\
-Ballooning Device: Uncheck\
+Ballooning Device: Uncheck
 
 - Network Tab\
-Model: VMware vmxnet3\
+Model: VMware vmxnet3
 
 Finish VM creation but DO NOT start the VM yet
 

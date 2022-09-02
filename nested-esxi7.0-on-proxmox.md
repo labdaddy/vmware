@@ -10,12 +10,17 @@ PROXMOX HOST CONSOLE
 Follow the normal VM creation process except as noted below:
 
 OS tab:
+
 OS type: Other
 
 System Tab
+
 Graphic card: Default
+
 SCSI Controller: VMware PVSCSI
+
 BIOS: SeaBIOS (OVMF (UEFI) should work too)
+
 Machine: q35
 
 Hard Disk Tab

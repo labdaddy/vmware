@@ -13,10 +13,10 @@ Follow the normal VM creation process except as noted below:
 OS type Other
 
 ##### System Tab
-Graphic card: Default
-SCSI Controller: VMware PVSCSI
-BIOS: SeaBIOS (OVMF (UEFI) should work too)
-Machine: q35
+Graphic card: Default\
+SCSI Controller: VMware PVSCSI\
+BIOS: SeaBIOS (OVMF (UEFI) should work too)\
+Machine: q35\
 
 ##### Hard Disk Tab
 Bus/Device: SATA
